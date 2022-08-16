@@ -1,0 +1,49 @@
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Comfortaa", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Patua One", serif;
+  letter-spacing: 2px;
+}
+
+.choices {
+    display: grid;
+    grid-template-columns: auto auto; /* This creates a 2 column grid */
+    padding: 2em; 
+    justify-content: space-around; 
+}
+
+.choices__options {
+    border: dotted thin #0066cc;
+    border-radius: 10px; /*higher the number the more rounded the edges */
+    text-align: left;
+    padding: 1em; 
+    margin: 1em; 
+    background-color: #ffffe6;
+    box-shadow: 5px 5px 5px #b3b3b3; /* horizontal offset(negative value offsets to left), vertical offset (negative value offsets up), blurr radius and color */
+}
+
+button {
+    background-color: #006666; 
+    color: #ffffff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; 
+
+}
+
+.displayOrder {
+    border: dotted thin #0066cc; 
+    padding: 1em; 
+    text-align: left; 
+    background-color:  #e6f2ff; 
+    margin: 1em; 
+
+}
